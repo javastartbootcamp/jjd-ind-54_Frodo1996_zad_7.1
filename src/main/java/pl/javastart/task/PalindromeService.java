@@ -14,6 +14,9 @@ public class PalindromeService {
                 return false;
             }
         }
+        if (array.length == 0) {
+            return false;
+        }
         return true;
     }
 }
