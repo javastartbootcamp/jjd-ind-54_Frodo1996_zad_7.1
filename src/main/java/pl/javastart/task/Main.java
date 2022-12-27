@@ -8,7 +8,7 @@ public class Main {
         int[] array = new int[]{1, 2, 3, 4, 5};
         int[] array2 = new int[]{1, 2, 3, 5, 3, 2, 1};
         int[] array3 = new int[]{1, 2, 3, 3, 2, 1};
-        int[] array4 = new int[]{0};
+        int[] array4 = new int[]{};
 
         boolean isPalindrome = palindromeService.isPalindrome(array);
         boolean isPalindrome2 = palindromeService.isPalindrome(array2);
